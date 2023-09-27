@@ -33,6 +33,7 @@
     font-size: calc(var(--index)*1);
     letter-spacing: 1px;
     margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-button {
     text-decoration: none;
