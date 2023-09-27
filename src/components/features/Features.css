@@ -1,0 +1,17 @@
+.section_features{ position: relative;}
+.features__body {
+  position: absolute;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: black;
+  color: white;
+  margin-top: 55vh;
+  padding: 10rem 0;
+  z-index: -1;
+}
+/* .features__item{ position: absolute;} */
+.features__img-1{width: 20vw; }
+.features__img-2{}
+.features__img-3{}
+.features-h1{}
+.features_button{}
