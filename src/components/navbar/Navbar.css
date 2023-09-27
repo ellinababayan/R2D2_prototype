@@ -3,7 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .navbar__body {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   width: 100%;
   display: flex;
