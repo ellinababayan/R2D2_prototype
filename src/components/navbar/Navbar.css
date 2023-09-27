@@ -1,0 +1,40 @@
+:root {
+  --index: calc(1vh + 1vw); /* setitng up root index */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar__body {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+/* styling navbar logo */
+
+.navbar__logo-img {
+  padding: calc(var(--index) * 0.3);
+  margin-left: 4rem;
+  width: calc(var(--index) * 2.3);
+}
+.navbar__navigation {
+  align-self: center;
+  margin-left: auto; /* aligning items to the right */
+  margin-right: 1rem;
+}
+/* styling navigation buttons */
+.navbar__item {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: calc(var(--index) * 0.35) calc(var(--index) * 1.1);
+  border-radius: 0.5rem;
+  margin-right: calc(var(--index) * 1.5);
+  font-weight: 600;
+}
+.navbar_signin {
+  background-color: transparent;
+  border: 1.7px solid #fff;
+}
+.navbar_join {
+  background-color: #3639ff;
+  border: 1px solid #3639ff;
+}
