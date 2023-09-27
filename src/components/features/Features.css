@@ -1,17 +1,105 @@
-.section_features{ position: relative;}
+.section_features {
+  position: relative;
+}
 .features__body {
   position: absolute;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.3); */
   background-color: black;
   color: white;
   margin-top: 55vh;
-  padding: 10rem 0;
+  padding: 5rem 0;
   z-index: -1;
 }
-/* .features__item{ position: absolute;} */
-.features__img-1{width: 20vw; }
-.features__img-2{}
-.features__img-3{}
-.features-h1{}
-.features_button{}
+.features__item {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 6rem;
+  padding-bottom: 0;
+}
+.features__item-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 6rem;
+  padding-bottom: 0;
+}
+.features__img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.features_description {
+  color: rgb(200, 203, 203);
+  font-weight: 400;
+  font-size: calc(var(--index) * 0.75);
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  text-align: left;
+  margin-left: calc(var(--index) * 5);
+  align-items: center;
+  margin-top: calc(var(--index) * 5);
+}
+.features_description-2 {
+  margin-left: 0;
+  margin-right: calc(var(--index) * 5);
+}
+.features-h1 {
+  font-weight: 400;
+  font-size: calc(var(--index) * 1.7);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.features-p {
+  margin-bottom: 3rem;
+}
+.features_button {
+  background-color: #3639ff;
+  border: 1px solid #3639ff;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: calc(var(--index) * 0.5) calc(var(--index) * 1.5);
+  border-radius: 0.5rem;
+  margin-right: calc(var(--index) * 1.5);
+  font-weight: 600;
+}
+
+/* video animation */
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+  animation-fill-mode: forwards;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
