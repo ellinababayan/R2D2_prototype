@@ -20,30 +20,33 @@
   position: absolute;
   color: white;
   width: 50vw;
-  top: calc(var(--index)*4);
+  top: calc(var(--index) * 4);
   left: calc(50vw - 25vw);
 }
 .header-h1 {
-  font-size: calc(var(--index) *3);
+  font-size: calc(var(--index) * 3);
   font-weight: 500;
 }
 .header-h3 {
-    color: rgb(200, 203, 203);
-    font-weight: 400;
-    font-size: calc(var(--index)*1);
-    letter-spacing: 1px;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat', sans-serif;
+  color: rgb(200, 203, 203);
+  font-weight: 400;
+  font-size: calc(var(--index) * 1);
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 .header-button {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    padding: calc(var(--index)*0.9) calc(var(--index)*3.5);
-    background-color: #3639ff;
-    border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: calc(var(--index) * 0.9) calc(var(--index) * 3.5);
+  background-color: #3639ff;
+  border-radius: 0.5rem;
 }
-
+.header-button:hover {
+  background-color: #27299d;
+  transition: 1s;
+}
 /* responsive design */
 
 @media only screen and (max-width: 900px) {
@@ -53,8 +56,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .header-button{
-    
-    padding: calc(var(--index)*0.9) calc(var(--index)*.5);
+  .header-button {
+    padding: calc(var(--index) * 0.9) calc(var(--index) * 0.5);
   }
 }

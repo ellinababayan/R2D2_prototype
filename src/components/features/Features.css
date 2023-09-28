@@ -62,6 +62,12 @@
   font-weight: 600;
 }
 
+.features_button:hover{
+  background-color: #27299d;
+  border: 1px solid #27299d;
+  transition: 1s;
+}
+
 /* video animation */
 
 .reveal {

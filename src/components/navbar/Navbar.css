@@ -9,6 +9,7 @@
   position: fixed;
   width: 100%;
   display: flex;
+  z-index: 20;
 }
 /* styling navbar logo */
 
@@ -39,6 +40,11 @@
 .navbar_join {
   background-color: #3639ff;
   border: 1px solid #3639ff;
+}
+.navbar_join:hover{
+  background-color: #27299d;
+  border: 1px solid #27299d;
+  transition: 1s;
 }
 
 @media only screen and (max-width: 900px) {

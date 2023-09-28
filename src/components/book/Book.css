@@ -55,6 +55,12 @@
   border-radius: 0.5rem;
   font-weight: 600;
 }
+.book__button:hover {
+  background-color: #27299d;
+  border: 1px solid #27299d;
+  transition: 1s;
+  /* transition: 1s; */
+}
 .book_ready {
   height: 100%;
   margin-top: 5rem;
