@@ -50,7 +50,7 @@ const Book = () => {
                 energized sales cycle.
               </p>
             </div>
-            <a href="" className="book__button">
+            <a href="/join" className="book__button">
               Unlock My Sales Superpowers
             </a>
           </div>

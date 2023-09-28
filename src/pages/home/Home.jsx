@@ -17,8 +17,7 @@ const Home = () => {
       <Perks />
       <Book />
       <Footer />
-      <Join />
-      <SignIn />
+      
     </div>
   );
 };

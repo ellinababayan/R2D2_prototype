@@ -20,7 +20,7 @@ const Header = () => {
           can find qualified leads, enrich leads with market intelligence, send
           personalized outreach and grow your pipeline by 10x.
         </h3>
-        <a href="" className="header-button">
+        <a href="/join" className="header-button">
           Get Early Access!
         </a>
       </div>

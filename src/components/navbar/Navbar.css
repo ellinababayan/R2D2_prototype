@@ -1,7 +1,7 @@
 :root {
   --index: calc(1vh + 1vw); /* setitng up root index */
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .navbar__body {
   background-color: rgba(0, 0, 0, 0.4);
@@ -23,7 +23,7 @@
 }
 /* styling navigation buttons */
 .navbar__item {
-  cursor: pointer;
+  cursor: pointer !important;
   text-decoration: none;
   color: white;
   padding: calc(var(--index) * 0.35) calc(var(--index) * 1.1);

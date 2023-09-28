@@ -37,7 +37,7 @@ const Features = () => {
               R2D2 from scratch with AI to help companies find more leads at a
               fraction of the cost.
             </p>
-            <a href="" className="features_button">
+            <a href="/join" className="features_button">
               Find More Leads
             </a>
           </div>
@@ -52,7 +52,7 @@ const Features = () => {
               companies uncover more ways to connect with future customers in
               real-time.
             </p>
-            <a href="" className="features_button">
+            <a href="/join" className="features_button">
               Enrich Your Leads
             </a>
           </div>
@@ -76,7 +76,7 @@ const Features = () => {
               R2D2 harnesses the power of several large language models (LLM’s)
               to write personal & professional emails at scale.
             </p>
-            <a href="" className="features_button">
+            <a href="join" className="features_button">
               Personalize My Outreach
             </a>
           </div>

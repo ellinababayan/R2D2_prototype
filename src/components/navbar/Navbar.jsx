@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href="" className=" navbar__item navbar_signin">
           Sign In
         </a>
-        <a href="" className="navbar__item navbar_join">
+        <a href="/join" className="navbar__item navbar_join">
           Join The Waitlist
         </a>
       </div>
