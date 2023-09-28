@@ -8,6 +8,7 @@ import Perks from "./components/perks/Perks";
 import Book from "./components/book/Book";
 import Join from "./pages/join/Join";
 import SignIn from "./pages/signin/SignIn";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <Perks />
       <Book />
+      <Footer />
       <Join />
       <SignIn />
     </div>
