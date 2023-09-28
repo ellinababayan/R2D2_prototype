@@ -103,3 +103,8 @@
   .book__button {
     padding: calc(var(--index) * 0.5) calc(var(--index) * 0.5);}
 }
+@media only screen and (max-width: 470px) {
+  
+  .book__button {
+    padding: 0;}
+}

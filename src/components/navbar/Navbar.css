@@ -46,3 +46,7 @@
     width: 100vw;
   }
 }
+@media only screen and (max-width: 450px) {
+  .navbar__item {
+    padding: calc(var(--index) * 0.35) calc(var(--index));}
+}
