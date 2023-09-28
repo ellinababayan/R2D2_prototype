@@ -24,8 +24,8 @@ const Book = () => {
                 className="book-checkmark"
               />
               <p className="book__description">
-                Personalized AI Outreach: Draft compelling messages <br></br> tailored for
-                each lead.
+                Personalized AI Outreach: Draft compelling messages <br></br>{" "}
+                tailored for each lead.
               </p>
             </div>
             <div className="book_item">
@@ -35,8 +35,8 @@ const Book = () => {
                 className="book-checkmark"
               />
               <p className="book__description">
-                Boosted Meeting Rates: Experience a surge in booked <br></br> meetings,
-                effortlessly.
+                Boosted Meeting Rates: Experience a surge in booked <br></br>{" "}
+                meetings, effortlessly.
               </p>
             </div>
             <div className="book_item">
@@ -46,14 +46,21 @@ const Book = () => {
                 className="book-checkmark"
               />
               <p className="book__description">
-                Packed Calendar: Prepare for back-to-back calls and an <br></br> energized
-                sales cycle.
+                Packed Calendar: Prepare for back-to-back calls and an <br></br>{" "}
+                energized sales cycle.
               </p>
             </div>
             <a href="" className="book__button">
               Unlock My Sales Superpowers
             </a>
           </div>
+        </div>
+
+        <div className="book_ready">
+          <h1 className="ready-h1">Ready to Level-Up?</h1>
+          <p className="ready-description">
+            Start saving time and automating wherever you work.
+          </p>
         </div>
       </div>
     </div>

@@ -55,3 +55,24 @@
   border-radius: 0.5rem;
   font-weight: 600;
 }
+.book_ready {
+  height: 100%;
+  margin-top: 5rem;
+  padding: 3rem;
+  background-image: linear-gradient(
+    to right,
+    black,
+    #252563f4 400px,
+    black 800px
+  );
+  background-size: 800px 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+.ready-h1{
+    font-weight: 400;
+    font-size: calc(var(--index)*1.7);
+}
+.ready-description{
+    font-size: calc(var(--index)*0.75);
+}
