@@ -103,3 +103,25 @@
     opacity: 1;
   }
 }
+
+/* responsive design */
+
+@media only screen and (max-width: 900px) {
+  .features__item {
+    padding: 0;
+    grid-template-columns: 0.5fr 1fr;
+  }
+  .features__img {
+    width: 100%;
+  }
+
+  .features__item-2 {
+    grid-template-columns: 0.5fr 0.75fr;
+    padding: 0rem;
+  }
+  .features_description {
+   
+    margin-left: 1rem;
+    margin-top: calc(var(--index) * 1);
+  }
+}

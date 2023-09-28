@@ -69,10 +69,32 @@
   background-position: 50% 100%;
   background-repeat: no-repeat;
 }
-.ready-h1{
-    font-weight: 400;
-    font-size: calc(var(--index)*1.7);
+.ready-h1 {
+  font-weight: 400;
+  font-size: calc(var(--index) * 1.7);
 }
-.ready-description{
-    font-size: calc(var(--index)*0.75);
+.ready-description {
+  font-size: calc(var(--index) * 0.75);
+}
+
+/* responsive design */
+@media screen and (max-width: 1200px) {
+  .book__container {
+    margin-top: 350vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .book__container {
+    margin-top: 290vh;
+  }
+  .book__img {
+    margin-left: calc(var(--index) * 5);
+  }
+}
+@media only screen and (max-width: 620px) {
+  .book__container {
+    margin-top: 270vh;
+  }
+  .book__button {
+    padding: calc(var(--index) * 0.5) calc(var(--index) * 0.5);}
 }

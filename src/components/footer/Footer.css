@@ -24,3 +24,15 @@
   text-decoration: none;
   color: white;
 }
+
+/* responsive design */
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    margin-top: 430vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .footer__container {
+    margin-top: 370vh;
+  }
+}

@@ -38,3 +38,9 @@
   background-color: #3639ff;
   border: 1px solid #3639ff;
 }
+
+@media only screen and (max-width: 900px) {
+  .navbar__body{
+    width: 100vw;
+  }
+}
