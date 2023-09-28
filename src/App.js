@@ -1,26 +1,21 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
-import Features from "./components/features/Features";
-import Perks from "./components/perks/Perks";
-import Book from "./components/book/Book";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Home from "./pages/home/Home";
 import Join from "./pages/join/Join";
 import SignIn from "./pages/signin/SignIn";
-import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <Features />
-      <Perks />
-      <Book />
-      <Footer />
-      <Join />
-      <SignIn />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/signin" element={<SignIn />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
