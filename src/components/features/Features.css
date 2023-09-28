@@ -105,7 +105,11 @@
 }
 
 /* responsive design */
-
+@media only screen and (max-width: 1400px) {
+  .features_button {
+    padding: calc(var(--index) * 0.5) calc(var(--index) * 0.5);
+  }
+}
 @media only screen and (max-width: 900px) {
   .features__item {
     padding: 0;
@@ -120,7 +124,6 @@
     padding: 0rem;
   }
   .features_description {
-   
     margin-left: 1rem;
     margin-top: calc(var(--index) * 1);
   }
