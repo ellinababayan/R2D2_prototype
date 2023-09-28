@@ -5,9 +5,9 @@ const Perks = () => {
   return (
     <div className="perk__body">
       <div className="perk__container">
-        <h1 className="perk-h1">Revolutionize Revenue Research with AutoGPT</h1>
+        <h1 className="perk-h1">Revolutionize Revenue Research with <br></br>AutoGPT</h1>
         <h3 className="perk-h3">
-          Dive deep, equipped with real-time insights, and ace every revenue
+          Dive deep, equipped with real-time insights, and <br></br> ace every revenue
           move.
         </h3>
         <div className="perk-table">
