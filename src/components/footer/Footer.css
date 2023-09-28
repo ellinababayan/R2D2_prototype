@@ -26,6 +26,11 @@
 }
 
 /* responsive design */
+@media screen and (max-width: 1500px) {
+  .footer__container {
+    margin-top: 400vh;
+  }
+}
 @media screen and (max-width: 1200px) {
   .footer__container {
     margin-top: 430vh;

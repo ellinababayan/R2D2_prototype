@@ -105,7 +105,7 @@
 }
 
 /* responsive design */
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .features_button {
     padding: calc(var(--index) * 0.5) calc(var(--index) * 0.5);
   }

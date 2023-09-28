@@ -57,6 +57,11 @@
 }
 
 /* responsive design */
+@media screen and (max-width: 1500px) {
+  .perk__container {
+    margin-top: 220vh;
+  }
+}
 @media screen and (max-width: 1200px) {
   .perk__container {
     margin-top: 230vh;

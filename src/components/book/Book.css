@@ -78,6 +78,11 @@
 }
 
 /* responsive design */
+@media screen and (max-width: 1500px) {
+  .book__container {
+    margin-top: 330vh;
+  }
+}
 @media screen and (max-width: 1200px) {
   .book__container {
     margin-top: 350vh;
