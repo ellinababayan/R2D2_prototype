@@ -9,10 +9,10 @@ const Footer = () => {
           &copy; 2023 Involve.ai. All rights reserved.
         </p>
         <div className="nav">
-          <a href="" className="footer_terms">
+          <a href="/termsconditions" className="footer_terms">
             Terms
           </a>
-          <a href="" className="footer_policy">
+          <a href="/privacy-policy" className="footer_policy">
             Privacy Policy
           </a>
         </div>
