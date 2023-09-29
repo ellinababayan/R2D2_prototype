@@ -6,7 +6,7 @@ const Terms = () => {
   return (
     <div className="terms__body">
       <Navbar />
-      <div className="terms__container">
+      <div className="terms__container reveal active fade-left">
         <h1 className="terms-h1">Terms & Conditions</h1>
         <div className="terms-description">
           <p className="join-p">Acceptance of Terms</p>
@@ -96,7 +96,8 @@ const Terms = () => {
           <p className="join-p">Contact Information</p>
           If you have any questions or concerns about these Terms and
           Conditions, please contact us at the email address provided on our
-          website.<br></br><br></br> &copy; 2023 involve.ai, Inc. All rights reserved.
+          website.<br></br>
+          <br></br> &copy; 2023 involve.ai, Inc. All rights reserved.
           <p className="terms-end">
             The explanations and information provided herein are only general
             and high-level explanations, information and samples. You should not
