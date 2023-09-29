@@ -1,39 +1,66 @@
 .join__body {
   background-color: rgb(19, 26, 29);
-  height: 100vh;
   color: white;
 }
-.join-h4{
-    font-weight: 400;
-    font-size: calc(var(--index)*1.1);
+.join-h4 {
+  font-weight: 400;
+  font-size: calc(var(--index) * 1.1);
 }
-label{
-display: block;
-
+.join_form {
+  width: 20%;
+  margin: auto;
+}
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: calc(var(--index) * 0.3);
+  text-align: left;
 }
 input {
-    background-color: #f7f7f7;
-    border: none;
-    border-radius: 0.5rem;
-    color: #555;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    position: relative;
-    width: 20%;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 0.5rem;
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+  /* width: 20%; */
+  padding-left: 1rem;
 }
 input::placeholder {
-    font-size: 0.9rem;
-    padding-left: 1rem;
+  font-size: 0.9rem;
 }
-input:hover{
-    background-color: #403c64;
+input:hover {
+  background-color: #403c64;
 }
-.button_submit{
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    padding: calc(var(--index)*0.9) calc(var(--index)*3.5);
-    background-color: #3639ff;
-    border-radius: 0.5rem;
+.button_submit {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: calc(var(--index) * 0.9) calc(var(--index) * 3.5);
+  background-color: #3639ff;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 2rem;
+  cursor: pointer;
+}
+.button_submit:hover {
+  background-color: #27299d;
+  transition: 1s;
+}
+
+/* footer */
+.join-footer__body {
+  padding-top: 1rem;
+}
+.join-footer__container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: -1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: calc(var(--index) * 0.55);
 }
