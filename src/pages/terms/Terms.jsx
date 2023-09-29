@@ -96,7 +96,7 @@ const Terms = () => {
           <p className="join-p">Contact Information</p>
           If you have any questions or concerns about these Terms and
           Conditions, please contact us at the email address provided on our
-          website. &copy; 2023 involve.ai, Inc. All rights reserved.
+          website.<br></br><br></br> &copy; 2023 involve.ai, Inc. All rights reserved.
           <p className="terms-end">
             The explanations and information provided herein are only general
             and high-level explanations, information and samples. You should not
@@ -105,6 +105,21 @@ const Terms = () => {
             to help you understand and to assist you in the creation of your
             Terms.
           </p>
+        </div>
+      </div>
+      <div className="join-footer__body">
+        <div className="join-footer__container">
+          <p className="footer_rights">
+            &copy; 2023 Involve.ai. All rights reserved.
+          </p>
+          <div className="nav">
+            <a href="" className="footer_terms">
+              Terms
+            </a>
+            <a href="" className="footer_policy">
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </div>
     </div>

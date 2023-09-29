@@ -1,7 +1,22 @@
 .terms__body {
-  color: white;
+  color: #B8C7CD;
   background-color: rgb(19, 26, 29);
 }
 .terms__container {
   padding-top: 6rem;
+  padding: calc(var(--index)*2) calc(var(--index)*15);
+  text-align: left;
+}
+.terms-h1{
+    color: white;
+    font-weight: 400;
+    font-size: calc(var(--index)*2.5);
+    margin-bottom: calc(var(--index)*4);
+}
+.join-p{
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+.terms-end{
+    margin-top: calc(var(--index)*6);
 }
