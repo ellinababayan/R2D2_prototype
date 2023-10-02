@@ -4,9 +4,9 @@ This repository contains a collection of React components for building a web app
 Table of Contents
 - [Components](#components)
 - [Features](#features)
-- [What's new?](#what'snew?)
+- [What's new?](#whats-new?)
 - [Usage](#usage)
-- [Getting Started](#gettingstarted)
+- [Getting Started](#getting-started)
 - [Customization](#customization)
 - [License](#license)
 
