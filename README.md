@@ -37,9 +37,58 @@ Table of Contents
 
 ## Features
 
+### User-Friendly Interface
+
+Our web application comes with an intuitive and user-friendly interface, making it easy for users to navigate and interact with your content.
+
+### Responsive Design
+
+The application is built with responsiveness in mind. It adapts seamlessly to various screen sizes, ensuring an optimal user experience on both desktop and mobile devices.
+
+### Navigation Bar
+
+The included navigation bar provides quick access to different sections of your application. Users can easily switch between pages with just a click.
+
+### Stunning Header
+
+The header section of the home page features a captivating video background that grabs users' attention. It also includes a prominent call-to-action button to encourage user engagement.
+
+### Feature Highlights
+
+Showcase the key features of your product with the "Features" section. Quick overview of key features and call-to action buttons.
+
+### Benefits and Perks
+
+The perk section of the home page provides user a relevant list of perks section: the available ones and ones that are launching soon.
+
+### Promote Resources
+
+Book section calls user to action and provides final list of pros for the provided service.
+
+### Footer with Links
+
+Every page includes a footer that provides essential links to your Terms & Conditions and Privacy Policy pages. Keep your users informed about your policies.
+
+### Early Access Sign-Up
+
+The "Join" component allows users to sign up for early access to your service. Collect user information seamlessly through the included form.
+
+### Customization
+
+Easily customize the components, styles, and content to align with your project's branding and unique requirements. Add additional components and pages as needed.
+
+
+
+Explore these features to create a powerful web application that engages users and delivers a great experience.
+
 
 ## What's new?
 
+Improved some parts of the original website:
+
+1. Set up the navbar component to be on top of the header component. That way we have a nicer layout and user experience.
+2. Set up the header component`s content to have a smaller margin-top. User doesn't like to move his/her mouse all the way down to press a button or to lower his/her eyes to read the header text.
+3. Changed the layout of components in the "Revolutionize Revenue Research with AutoGPT" component for better user experience. Switched from scroll bar to grid so you as a company would have users see all the components. But when we have a scroll bar, we are lowering chances for components to be seen.
 
 
 ## Usage
