@@ -1,6 +1,14 @@
-# React Web Application Components
-
+# R2D2 Prototype
 This repository contains a collection of React components for building a web application. The application is designed to have multiple pages, a navigation bar, and various sections for showcasing features and content. Below is an overview of the components included in this repository:
+
+Table of Contents
+- [Components](#components)
+- [Features](#features)
+- [What's new?](#what'snew?)
+- [Usage](#usage)
+- [Getting Started](#gettingstarted)
+- [Customization](#customization)
+- [License](#license)
 
 ## Components
 
@@ -25,6 +33,13 @@ This repository contains a collection of React components for building a web app
 10. **Terms.jsx**: A page displaying the Terms & Conditions of the application. It outlines the rules and requirements for using the service.
     
 11. **Join.jsx**: The `Join` component is responsible for rendering a page where users can sign up for early access to your service. It includes a form for users to provide their information and submit it for further processing.
+
+
+## Features
+
+
+## What's new?
+
 
 
 ## Usage
