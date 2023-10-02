@@ -16,7 +16,7 @@ Table of Contents
 
 2. **Home.jsx**: The main landing page of the application, which includes the Navbar, Header, and other sections showcasing features and benefits.
    
-3.**Navbar.jsx**: A navigation bar component that includes links to different pages of the application, such as Home and Join.
+3. **Navbar.jsx**: A navigation bar component that includes links to different pages of the application, such as Home and Join.
 
 4. **Header.jsx**: The header component that typically appears at the top of the home page. It includes a video background and a call-to-action button.
    
@@ -87,8 +87,16 @@ Explore these features to create a powerful web application that engages users a
 Improved some parts of the original website:
 
 1. Set up the navbar component to be on top of the header component. That way we have a nicer layout and user experience.
+
+https://github.com/ellinababayan/r2d2_prototype/assets/128013006/d40a4355-164e-4d52-8974-ed77d45ce221
+
 2. Set up the header component`s content to have a smaller margin-top. User doesn't like to move his/her mouse all the way down to press a button or to lower his/her eyes to read the header text.
+
+https://github.com/ellinababayan/r2d2_prototype/assets/128013006/efba6fae-2d0c-4552-9f34-a30949a38022
+
 3. Changed the layout of components in the "Revolutionize Revenue Research with AutoGPT" component for better user experience. Switched from scroll bar to grid so you as a company would have users see all the components. But when we have a scroll bar, we are lowering chances for components to be seen.
+
+https://github.com/ellinababayan/r2d2_prototype/assets/128013006/9114536f-280b-4c9b-ad62-3ebd7febc0b8
 
 
 ## Usage
